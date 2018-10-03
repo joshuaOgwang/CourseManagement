@@ -55,6 +55,27 @@ class Person {
   public void setBirthDate(Date newBirthDate) {
     this.birthDate = newBirthDate;
   }
+
+  /*
+  *method toString which returns a Persons data;
+  *the method coolects values from the getters and setters;
+  *and concatenates them inti a String
+  */
+  public String toString() {
+    return getName() + ", " + getEmail() + ", " + getBirthDate();
+  }
+}
+
+/*
+*class Student
+*/
+class Student {
+  /*
+  *instance variables
+  */
+  String regNo;
+  String[] courses = new string[4];
+  
 }
 
 /*
